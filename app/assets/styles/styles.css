@@ -1,0 +1,11 @@
+body{
+    color: black;
+}
+
+$mainred: #34f443;
+
+.large-hero {
+    h2 {
+        color: $mainred;
+    }
+}

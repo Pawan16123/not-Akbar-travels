@@ -1,1 +1,2 @@
-alert("How you doing");
+import "../styles/styles.css"
+// alert("How you doing");
