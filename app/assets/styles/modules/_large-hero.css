@@ -20,12 +20,12 @@
     
         font-weight: 300;
         color: $mainBlue;
-        font-size: 2.9rem;
+        font-size: 2.6rem;
         margin: 0;
     }
     &__description{
         color: #ffff;
-        font-size: 1.875rem;
+        font-size: 1.775rem;
         font-weight: 100;
         text-shadow: 2px 2px 0 rgba(0,0,0,0.10);
         max-width: 30rem;
