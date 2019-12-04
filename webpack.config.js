@@ -12,8 +12,12 @@ module.exports = {
         filename: "bundeled.js",
         path: path.resolve(__dirname,"app"),
     },
+    devServer: {
+        contentBase: path.join(__dirname,"app"),
+        hot: true,  //allow webpack new css or js after saving i.e on the fly hot module replacementort files order didn't worked for me.
+        port: 3000, //default value 8080
+    },
     mode:"development",
-    watch: true,
     module: {
         rules: [
             {
