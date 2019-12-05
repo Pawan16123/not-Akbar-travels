@@ -1,9 +1,15 @@
 body{
     font-family: 'Roboto',sans-serif;
-    color: #ff7f50 ;
+    color: #000000 ;
     /* background-color: #ff7f50; */
 }
 img{
     max-width: 100%;
     height: auto;
+}
+*{
+    box-sizing: border-box;
+}
+a{
+    color: $mainOrange;
 }
